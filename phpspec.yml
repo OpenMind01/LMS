@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Pi
+        psr4_prefix: Pi
+        src_path: app

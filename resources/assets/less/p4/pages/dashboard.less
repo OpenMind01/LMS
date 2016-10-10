@@ -1,0 +1,202 @@
+.dropzone-container{
+  padding: 5px !important;
+}
+
+#outer-dropzone {
+  height: 140px;
+}
+
+#inner-dropzone {
+  height: 80px;
+}
+
+.dropzone {
+    padding: 5px;
+    border: 2px dashed transparent;
+}
+
+.dragzone{
+  cursor: move;
+}
+
+.drop-active {
+  border-color: #ccc;
+  min-height: 300px;
+}
+
+.drop-target {
+  background-color: #29e;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.drag-drop {
+  display: inline-block;
+  min-width: 40px;
+  padding: 2em 0.5em;
+
+  color: #fff;
+  background-color: #29e;
+  border: solid 2px #fff;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+
+  transition: background-color 0.3s;
+}
+
+.ui-sortable .panel-heading {
+  cursor: move;
+}
+.ui-sortable-placeholder {
+  border: 1px dashed #5FA2DD !important;
+  visibility: visible !important;
+  background: lighten(#5FA2DD, 25%);
+}
+.ibox.ui-sortable-placeholder {
+  margin: 0 0 23px !important;
+}
+
+.drag-drop.can-drop {
+  color: #000;
+  background-color: #4e4;
+}
+
+#events-carousel{
+  .item{
+    h3{
+      text-align: left;
+    }
+    p{
+      text-align: left;
+    }
+  }
+}
+
+#rised-hands-widget{
+  .panel{
+    padding: 10px;
+    div{
+      color: #515151;
+    }
+  }
+}
+
+#students-completion-progress-widget{
+  .morris-donut{
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+}
+
+.manage-clients-block {
+  .btn-info {
+    margin-bottom:10px;
+  }
+}
+
+.tutorial {
+
+  .tutorial-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .tutorial-popover,
+  .tutorial-modal {
+    border: 1px solid #888;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2000;
+  }
+
+  .tutorial-popover {
+    max-width: 300px;
+  }
+
+  .tutorial-popover-content {
+    position: relative;
+    padding: 24px;
+
+    &:before {
+      position: absolute;
+      display: block;
+      border: 10px solid transparent;
+      content: '';
+    }
+  }
+
+  .tutorial-popover[data-placement="top"] > .tutorial-popover-content:before {
+    border-top-color: #fff;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tutorial-popover[data-placement="right"] > .tutorial-popover-content:before {
+    border-right-color: #fff;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+  }
+
+  .tutorial-popover[data-placement="bottom"] > .tutorial-popover-content:before {
+    border-bottom-color: #fff;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tutorial-popover[data-placement="left"] > .tutorial-popover-content:before {
+    border-left-color: #fff;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+  }
+
+  .tutorial-modal {
+    top: 5vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 50vw;
+    padding: 24px;
+  }
+
+  label {
+    display: block;
+  }
+}
+
+.edit-theme-img {
+  width: 100%;
+}
+
+.hero-image-edit {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: ns-resize;
+
+  .hero-image-edit-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
+
+.hero-responsive {
+  padding-bottom: 210px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "theProtectionInstitute",
+  "description": "",
+  "main": "app.js",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/plugins",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootform": "*",
+    "jquery.hotkeys": "jquery-hotkeys#~0.2.0",
+    "magnific-popup": "~1.0.0",
+    "angular": "angularjs#~1.4.8",
+    "angular-resource": "~1.4.8",
+    "ngstorage": "~0.3.10"
+  }
+}
